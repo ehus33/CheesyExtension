@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Say Cheese!</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div id="helpModal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Welcome to the Say Cheese tool! This tool allows you to capture a screenshot of any website by simply entering its URL. Below you'll find step-by-step instructions, tips for troubleshooting common issues, and ways to contact support if you need further assistance.</p>
+                <h3>How to Use:</h3>
+                <ol>
+                    <li>Enter the complete URL of the website you want to capture in the 'Enter website URL here' field.</li>
+                    <li>To customize the background color of the screenshot, click on the 'Choose Background Color' button and select a color of your choice.</li>
+                    <li>Once you are ready, click the 'Capture Screenshot' button to generate your screenshot.</li>
+                </ol>
+                <h3>Support:</h3>
+                <p>If you encounter issues that are not addressed in the troubleshooting guide, please contact our support team at support@saycheese.com. We are available 24/7 and ready to assist you!</p>
+
+            </div>
+        </div>
+        <div id="header">
+            <h1>Say Cheese!</h1>
+        </div>
+        <button id="helpBtn"><i class="fas fa-question-circle"></i> Help</button>
+        <div id="inputArea">
+            <div>
+                <input type="url" id="websiteAddress" placeholder="Enter website URL here">
+            </div>
+            <label for="bgColor">Choose Background Color:</label>
+            <div class="color-picker">
+                <button id="colorBtn" onclick="document.getElementById('bgColor').click();">
+                    <span><i class="fas fa-paint-brush"></i> Choose Background Color</span>
+                </button>
+                <input type="color" id="bgColor" value="#71A6D2" style="display:none;">                
+            </div>
+            <button id="submitBtn">Capture Screenshot</button>
+        </div>
+        <div id="loadingScreen" class="hidden">
+            <p>Loading...</p>
+        </div>
+        <div id="resultScreen" class="hidden">
+            <img alt="Screenshot" id='resultImg'>
+            <button id="downloadBtn">Download Image</button>
+        </div>
+    </main>
+    <script src="popup.js"></script>
+</body>
+</html>

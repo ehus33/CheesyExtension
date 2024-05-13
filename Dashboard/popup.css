@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body, html {
+    height: 100%;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+
+#header h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+#helpBtn {
+    padding: 10px 20px;
+    background-color: #f4b400;  /* Yellow color for visibility */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#helpBtn:hover {
+    background-color: #d2a106; /* Darker yellow on hover */
+}
+
+
+#inputArea {
+    margin: 20px 0;
+}
+
+input[type="url"], input[type="color"] {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: calc(70% - 12px);
+}
+
+input[type="color"] {
+    width: calc(10% - 12px);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5C67F2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #434aD8;
+}
+
+.hidden {
+    display: none;
+}
+
+#loadingScreen p {
+    color: #555;
+}
+
+#resultScreen img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#resultScreen #downloadBtn {
+    margin-top: 10px;
+}
+
+#bgColor {
+    cursor: pointer;
+    border: 2px solid #000;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
+label {
+    margin-right: 10px;
+}
+#colorBtn {
+    display: flex;
+    align-items: center; /* Vertically center contents */
+    justify-content: center; /* Horizontally center contents */
+    padding: 10px;
+    width: 100%; /* Full width */
+    cursor: pointer; /* Cursor indicates clickable */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Gray border */
+    background-color: #ffffff; /* White background */
+    color: black; /* Black text */
+}
+
+#colorBtn i {
+    margin-right: 10px; /* Space between icon and text */
+}
