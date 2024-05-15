@@ -1,6 +1,6 @@
 # Say Cheese!
 
-Welcome to "Say Cheese!" This project is an extension designed to provide additional functionality to enhance your workflow.
+Welcome to "Say Cheese!" This project is an extension designed to provide additional functionality to enhance your workflow and see into the past.
 
 ## Table of Contents
 
