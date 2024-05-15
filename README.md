@@ -1,6 +1,6 @@
 # Say Cheese!
 
-Welcome to CheesyExtension! This project is an extension designed to provide additional functionality to enhance your workflow.
+Welcome to "Say Cheese!" This project is an extension designed to provide additional functionality to enhance your workflow.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ Welcome to CheesyExtension! This project is an extension designed to provide add
 
 ## Installation
 
-To get started with CheesyExtension, follow these steps:
+To get started with "Say Cheese!", follow these steps:
 
 1. **Clone the repository:**
 
@@ -34,7 +34,7 @@ To get started with CheesyExtension, follow these steps:
 
 ## Usage
 
-To use CheesyExtension, follow these steps:
+To use Say Cheese!, follow these steps:
 
 1. **Build the extension:**
 
@@ -46,7 +46,7 @@ To use CheesyExtension, follow these steps:
 
     - Open your browser and navigate to the extensions page.
     - Enable "Developer mode".
-    - Click on "Load unpacked" and select the `dist` directory in the CheesyExtension project.
+    - Click on "Load unpacked" and select the `dist` directory in the Say Cheese! project.
 
 3. **Activate the extension:**
 
@@ -54,7 +54,7 @@ To use CheesyExtension, follow these steps:
 
 ## Features
 
-CheesyExtension offers the following features:
+Say Cheese! offers the following features:
 
 - **Feature 1:** Description of feature 1.
 - **Feature 2:** Description of feature 2.
@@ -62,7 +62,7 @@ CheesyExtension offers the following features:
 
 ## Contributing
 
-We welcome contributions! To contribute to CheesyExtension, follow these steps:
+We welcome contributions! To contribute to Say Cheese!, follow these steps:
 
 1. **Fork the repository:**
 
