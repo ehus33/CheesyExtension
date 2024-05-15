@@ -1,4 +1,4 @@
-# CheesyExtension
+# Say Cheese!
 
 Welcome to CheesyExtension! This project is an extension designed to provide additional functionality to enhance your workflow.
 
